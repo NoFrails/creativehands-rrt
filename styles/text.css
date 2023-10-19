@@ -1,0 +1,54 @@
+p /*P is a selector CSS SPECIFICITY*/ {
+  font-family: Roboto;
+  margin-bottom: 0;
+  margin-top: 0;
+  /*can be targeted all paragraph and class*/
+}
+
+P.Video-Title /*videotitle is all a selector with a particular class*/ {
+  
+  font-weight: bold;
+  /*font-style: italic;*/
+  text-align: left;
+  font-size: 18px;
+  width: 280px; 
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+P.Video-Stats {
+  
+  font-size: 14px;
+  color: rgb(96,96,96);
+  
+}
+
+P.Russel-Tings {
+  /* font-family: arial; */
+  font-size: 14px;
+  color: rgb(96,96,96);
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+
+P.Shop-wise {
+  font-size: 14px;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+ /* text-decoration: underline; */
+}
+
+.Shop-Now {
+  color: white;
+}
+
+.Shop-Now:hover {
+  text-decoration: underline;
+}
+
+.Shop-Now {
+  cursor: pointer;
+}
